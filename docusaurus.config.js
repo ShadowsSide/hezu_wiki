@@ -5,7 +5,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
-const config = {
+(module.exports = {
   title: "Hezu Wiki",
   tagline: "欢迎加入电报第一合租群",
   url: "https://hezu.wiki",
@@ -126,6 +126,4 @@ const config = {
         darkTheme: darkCodeTheme
       }
     })
-};
-
-module.exports = config;
+});
