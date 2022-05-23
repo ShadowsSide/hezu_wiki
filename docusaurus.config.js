@@ -4,15 +4,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 // With JSDoc @type annotations, IDEs can provide config autocompletion
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 (module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  title: "Hezu Wiki",
+  tagline: "欢迎加入电报第一合租群",
+  url: "https://hezu.wiki",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/Doraemon.svg",
 
   presets: [
     [
@@ -41,74 +39,73 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: "电报第一合租群@hezu1",
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: "My Site Logo",
+          src: "img/Doraemon.svg"
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Tutorial',
+            type: "doc",
+            docId: "About_Us",
+            position: "left",
+            label: "群组介绍及群规"
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+
+          /**隐藏blog */
+          /**{ to: "/blog", label: "Blog", position: "left" },*/
+
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
+            href: "https://t.me/hezu1",
+            label: "加入我们",
+            position: "right"
+          }
+        ]
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "群组介绍",
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
+                label: "关于我们",
+                to: "/docs/About_Us"
+              }
+            ]
           },
           {
-            title: 'Community',
+            title: "加入我们",
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: "Telegram群组",
+                href: "https://t.me/hezu1"
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: "Telegram频道",
+                href: "https://t.me/hezu2"
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
+                label: "教程频道",
+                href: "https://t.me/godlynews1"
+              }
+            ]
           },
           {
-            title: 'More',
+            title: "帮助我们美化页面",
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+                label: "GitHub",
+                href: "https://github.com/shadowsside/hezu-wiki"
+              }
+            ]
+          }
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 电报第一合租群, @hezu1. Built with Docusaurus.`
       },
       prism: {
         theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },
-    }),
+        darkTheme: darkCodeTheme
+      }
+    })
 });
