@@ -1,14 +1,12 @@
 ---
-slug: 文章地址
-title: 这是标题
+slug: first-blog-post
+title: First Blog Post
 authors:
-  name: 作者姓名
-  title: 作者信息
+  name: Gao Wei
+  title: Docusaurus Core Team
   url: https://github.com/wgao19
   image_url: https://github.com/wgao19.png
-tags: [hola, docusaurus,标签信息]
+tags: [hola, docusaurus]
 ---
 
-每个人都要这样子才好
-再次测试
-每一次测试都是一次煎熬
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
