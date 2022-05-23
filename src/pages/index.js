@@ -18,7 +18,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/About_us"
           >
-            Docusaurus Tutorial - 5min ⏱️
+            欢迎来到电报第一合租群的大家庭
           </Link>
         </div>
       </div>
