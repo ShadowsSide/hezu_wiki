@@ -9,11 +9,7 @@ const config = {
   title: "Hezu Wiki",
   tagline: "欢迎加入电报第一合租群",
   url: "https://hezu.wiki",
-<<<<<<< HEAD
   baseUrl: "/",
-=======
-  baseUrl: "https://www.hezu.wiki/docs/About_Us/",
->>>>>>> 29675a365c2c166ae127dc591a6cdfe190921b53
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/Doraemon.svg",
