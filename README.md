@@ -1,41 +1,17 @@
-# Website
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+<h1 align="center">
+  <p align="center">合租Wiki</p>
+  <a href="https://docusaurus.io"><img src="static/img/hezu1.PNG" alt="Docusaurus"></a>
+</h1>
 
-### Installation
+<p align="center">
+    <a href="https://t.me/hezu1"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Ftelegram%2Fhezu1&query=count&color=2CA5E0&label=Group&labelColor=282c34&logo=telegram&suffix=+members&cacheSeconds=3600"></img></a>
+    <a href="https://t.me/hezu2"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Ftelegram%2Fhezu2&query=count&color=2CA5E0&label=Channel&labelColor=282c34&logo=telegram&suffix=+members&cacheSeconds=3600"></img></a>
+</p>
 
-```
-$ yarn
-```
 
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## 参与贡献
+1. 点击右上角 `Fork` 本仓库
+2. 本地构建修改后推送到 Github
+3. 提交PR,等待`merge`
+4. 如果是修改主题方面的，请将页面预览图发送给 [犬来八荒🌸](https://t.me/ShadowsSide)，我会按照需求进行合并
