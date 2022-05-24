@@ -9,6 +9,11 @@
     <a href="https://t.me/hezu2"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.swo.moe%2Fstats%2Ftelegram%2Fhezu2&query=count&color=2CA5E0&label=Channel&labelColor=282c34&logo=telegram&suffix=+members&cacheSeconds=3600"></img></a>
 </p>
 
+## TODO
+- [ ] 文档搜索
+- [ ] SideBar
+- [ ] i18n
+- [ ] 主题美化
 
 ## 参与贡献
 1. 点击右上角 `Fork` 本仓库

@@ -22,7 +22,7 @@ module.exports = ({
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
-  
+
 
 
   presets: [
@@ -37,7 +37,7 @@ module.exports = ({
           editUrl:
             "https://github.com/ShadowsSide/hezu_wiki/tree/master/"
         },
-        /** 
+        /**
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
@@ -51,9 +51,16 @@ module.exports = ({
       })
     ]
   ],
-
+  themes: [
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        hashed: true,
+        language: ["en", "zh"],
+      },
+    ],
+  ],
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
         title: "电报第一合租群@hezu1",
