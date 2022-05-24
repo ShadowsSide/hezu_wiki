@@ -21,6 +21,8 @@
 3. 提交PR,等待`merge`
 4. 如果是修改主题方面的，请将页面预览图发送给 [犬来八荒🌸](https://t.me/ShadowsSide)，我会按照需求进行合并
 
-## Contributors
+## 贡献者
+
+感谢所有为这个项目作出贡献的人!  
 
  <a href="https://github.com/facebook/docusaurus/graphs/contributors"><img src="https://opencollective.com/hezuwiki/contributors.svg?width=890&button=false" /></a>
