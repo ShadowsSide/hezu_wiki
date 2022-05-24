@@ -113,7 +113,7 @@ module.exports = ({
             items: [
               {
                 label: "GitHub",
-                href: "https://github.com/shadowsside/hezu-wiki"
+                href: "https://github.com/ShadowsSide/hezu_wiki"
               }
             ]
           }
