@@ -61,7 +61,7 @@ module.exports = ({
       },
     ],
   ],
-   */
+   **/
   themeConfig:
     ({
       navbar: {
