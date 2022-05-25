@@ -66,17 +66,30 @@ module.exports = ({
     ({
       navbar: {
         title: "电报第一合租群@hezu1",
+        // 当用户开始向下滚动页面时自动隐藏导航条，当用户向上滚动页面时则显示导航条。
+        hideOnScroll: true,
+
         logo: {
           alt: "My Site Logo",
           src: "img/Doraemon.png"
+          
+          
         },
+        
         items: [
+          
           {
             type: "doc",
             docId: "About_Us",
             position: "left",
             label: "群组介绍及群规"
           },
+          // 搜索栏位置
+          {
+            type: 'search',
+            position: 'right',
+          },
+
 
           /**隐藏blog */
           /**{ to: "/blog", label: "Blog", position: "left" },*/
