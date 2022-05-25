@@ -29,7 +29,13 @@ module.exports = ({
     [
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      ({     
+         // 接入Google Analytics
+        gtag: {
+            trackingID: 'G-0SPH7SYXJJ',
+            anonymizeIP: true,
+        },
+
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
