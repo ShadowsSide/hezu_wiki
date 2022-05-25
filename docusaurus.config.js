@@ -51,6 +51,7 @@ module.exports = ({
       })
     ]
   ],
+  /**
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
@@ -60,6 +61,7 @@ module.exports = ({
       },
     ],
   ],
+   */
   themeConfig:
     ({
       navbar: {
