@@ -51,7 +51,7 @@ module.exports = ({
       })
     ]
   ],
-  /**
+
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
@@ -61,7 +61,7 @@ module.exports = ({
       },
     ],
   ],
-   **/
+
   themeConfig:
     ({
       navbar: {
@@ -87,12 +87,7 @@ module.exports = ({
             position: "right"
           }
         ]
-      },
-    algolia: {
-      apiKey: '1a0987b47ff3d17bc8222050694ecd9d',
-      appId: 'RD8DLBO2TM',
-      indexName: 'hezuwiki',
-    },      
+      },    
       footer: {
         style: "dark",
         links: [
