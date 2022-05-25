@@ -12,7 +12,7 @@ module.exports = ({
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/Doraemon.svg",
+  favicon: "img/Doraemon.png",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -68,7 +68,7 @@ module.exports = ({
         title: "电报第一合租群@hezu1",
         logo: {
           alt: "My Site Logo",
-          src: "img/Doraemon.svg"
+          src: "img/Doraemon.png"
         },
         items: [
           {
