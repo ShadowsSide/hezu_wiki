@@ -16,10 +16,11 @@
 - [ ] 主题美化
 
 ## 参与贡献
-1. 点击右上角 `Fork` 本仓库
-2. 本地构建修改后推送到 Github
-3. 提交PR,等待`merge`
-4. 如果是修改主题方面的，请将页面预览图发送给 [犬来八荒🌸](https://t.me/ShadowsSide)，我会按照需求进行合并
+1. 先在更新计划的 [Google Sheets](https://docs.google.com/spreadsheets/d/1-d_YoCeY-Jg3z2yKIO0rnZsgejeK4AGIuB5ojFSFRD8/edit?usp=sharing) 中填写对应的信息
+2. 点击右上角 `Fork` 本仓库
+3. 本地构建修改后推送到 `Github`
+4. 提交PR,等待`merge`
+5. 如果是修改主题方面的，请将页面预览图发送给 [犬来八荒🌸](https://t.me/ShadowsSide)，我会按照需求进行合并
 
 ## 贡献者
 
