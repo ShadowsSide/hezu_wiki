@@ -86,6 +86,11 @@ module.exports = ({
           }
         ]
       },
+    algolia: {
+      apiKey: '1a0987b47ff3d17bc8222050694ecd9d',
+      appId: 'RD8DLBO2TM',
+      indexName: 'hezuwiki',
+    },      
       footer: {
         style: "dark",
         links: [
