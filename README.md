@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <p align="center">合租Wiki</p>
-  <a href="https://hezu.wiki"><img src="static/img/hezu1.PNG" alt="Docusaurus"></a>
+  <a href="https://hezu.wiki" target="_blank"><img src="static/img/hezu1.PNG" alt="Docusaurus"></a>
 </h1>
 
 <p align="center">
