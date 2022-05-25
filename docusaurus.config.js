@@ -37,96 +37,87 @@ module.exports = ({
     ],
     i18n: {
         defaultLocale: 'zh',
-        locales: ['zh', 'en'],
-        localeConfigs: {
-            en: {
-                label: 'English',
-                direction: 'ltr',
-                htmlLang: 'en-US',
-                calendar: 'gregory',
-            },
-        },
+        locales: ['zh-cn', 'zh-hk']
     },
-    // themes: [
-    //     [
-    //         require.resolve("@easyops-cn/docusaurus-search-local"),
-    //         {
-    //             hashed: true,
-    //             language: ["en", "zh"],
-    //         },
-    //     ],
-    // ],
-    themeConfig:
-        ({
-            navbar: {
-                title: "电报第一合租群@hezu1",
-                logo: {
-                    alt: "My Site Logo",
-                    src: "img/Doraemon.svg"
+    themes: [
+        [
+            require.resolve("@easyops-cn/docusaurus-search-local"),
+            {
+                hashed: true,
+                language: ["zh","en"],
+            },
+        ],
+    ],
+    themeConfig: {
+        navbar: {
+            title: "电报第一合租群@hezu1",
+            logo: {
+                alt: "My Site Logo",
+                src: "img/Doraemon.svg"
+            },
+            items: [
+                {
+                    type: "doc",
+                    docId: "About_Us",
+                    position: "left",
+                    label: "群组介绍及群规"
                 },
-                items: [
-                    {
-                        type: "doc",
-                        docId: "About_Us",
-                        position: "left",
-                        label: "群组介绍及群规"
-                    },
-                    {
-                        type: 'localeDropdown',
-                        position: 'right',
-                    },
-                    {
-                        href: "https://t.me/hezu1",
-                        label: "加入我们",
-                        position: "right"
-                    }
-                ]
-            },
-            footer: {
-                style: "dark",
-                links: [
-                    {
-                        title: "群组介绍",
-                        items: [
-                            {
-                                label: "关于我们",
-                                to: "/docs/About_Us"
-                            }
-                        ]
-                    },
-                    {
-                        title: "加入我们",
-                        items: [
-                            {
-                                label: "Telegram群组",
-                                href: "https://t.me/hezu1"
-                            },
-                            {
-                                label: "Telegram频道",
-                                href: "https://t.me/hezu2"
-                            },
-                            {
-                                label: "教程频道",
-                                href: "https://t.me/godlynews1"
-                            }
-                        ]
-                    },
-                    {
-                        title: "帮助我们美化页面",
-                        items: [
-                            {
-                                label: "GitHub",
-                                href: "https://github.com/ShadowsSide/hezu_wiki"
-                            }
-                        ]
-                    }
-                ],
-                copyright: `Copyright © ${new Date().getFullYear()} 电报第一合租群, @hezu1. Built with Docusaurus.`
-            },
-            prism: {
-                theme: lightCodeTheme,
-                darkTheme: darkCodeTheme
-            }
-        })
+                {
+                    type: 'localeDropdown',
+                    position: 'right',
+                },
+                {
+                    href: "https://t.me/hezu1",
+                    label: "加入我们",
+                    position: "right"
+                }
+            ]
+        },
+        footer: {
+            style: "dark",
+            links: [
+                {
+                    title: "群组介绍",
+                    items: [
+                        {
+                            label: "关于我们",
+                            to: "/docs/About_Us"
+                        }
+                    ]
+                },
+                {
+                    title: "加入我们",
+                    items: [
+                        {
+                            label: "Telegram群组",
+                            href: "https://t.me/hezu1"
+                        },
+                        {
+                            label: "Telegram频道",
+                            href: "https://t.me/hezu2"
+                        },
+                        {
+                            label: "教程频道",
+                            href: "https://t.me/godlynews1"
+                        }
+                    ]
+                },
+                {
+                    title: "帮助我们美化页面",
+                    items: [
+                        {
+                            label: "GitHub",
+                            href: "https://github.com/ShadowsSide/hezu_wiki"
+                        }
+                    ]
+                }
+            ],
+            copyright: `Copyright © ${new Date().getFullYear()} 电报第一合租群, @hezu1. Built with Docusaurus.`
+        },
+        prism: {
+            theme: lightCodeTheme,
+            darkTheme: darkCodeTheme
+        }
+    }
 });
 
