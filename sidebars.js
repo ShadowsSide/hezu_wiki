@@ -1,10 +1,9 @@
 module.exports = {
     docs: [
       {
-        type: 'category',
+        type: 'doc',
         label: '关于我们',
-        collapsed: false,
-        items: ['About_Us'],
+        id: 'About_Us',
       },
       {
         type:  'category',
@@ -38,9 +37,13 @@ module.exports = {
         collapsed: false,
         items: [
             '实用工具区/关键词订阅',
-            '实用工具区/合租冷知识',
             '实用工具区/常用流媒体及软件开通教程',
         ],
+      },
+      {
+        type: 'link',
+        label: '加入我们',
+        href: 'https://t.me/hezu1',
       },
     
   
