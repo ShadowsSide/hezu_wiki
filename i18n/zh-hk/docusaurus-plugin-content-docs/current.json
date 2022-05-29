@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.关于我们": {
+    "message": "关于我们",
+    "description": "The label for category 关于我们 in sidebar docs"
+  },
+  "sidebar.docs.category.群规及置顶": {
+    "message": "群规及置顶",
+    "description": "The label for category 群规及置顶 in sidebar docs"
+  },
+  "sidebar.docs.category.乘客必看": {
+    "message": "乘客必看",
+    "description": "The label for category 乘客必看 in sidebar docs"
+  },
+  "sidebar.docs.category.发车必看": {
+    "message": "发车必看",
+    "description": "The label for category 发车必看 in sidebar docs"
+  },
+  "sidebar.docs.category.实用工具区": {
+    "message": "实用工具区",
+    "description": "The label for category 实用工具区 in sidebar docs"
+  }
+}

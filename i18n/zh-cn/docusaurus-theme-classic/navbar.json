@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "电报第一合租群@hezu1",
+    "description": "The title in the navbar"
+  },
+  "item.label.群组介绍及群规": {
+    "message": "群组介绍及群规",
+    "description": "Navbar item with label 群组介绍及群规"
+  },
+  "item.label.加入我们": {
+    "message": "加入我们",
+    "description": "Navbar item with label 加入我们"
+  }
+}
