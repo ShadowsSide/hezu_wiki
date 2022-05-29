@@ -67,7 +67,10 @@ module.exports = ({
             },
         ],
     ],
-
+    i18n: {
+        defaultLocale: 'zh-cn',
+        locales: ['zh-cn', 'zh-hk'],
+    },
     themeConfig:
         ({
             navbar: {
@@ -104,6 +107,10 @@ module.exports = ({
                         href: "https://t.me/hezu1",
                         label: "加入我们",
                         position: "right"
+                    },
+                    {
+                        type: 'localeDropdown',
+                        position: 'right',
                     }
                 ]
             },
