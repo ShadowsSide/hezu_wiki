@@ -45,6 +45,14 @@ module.exports = {
         label: '加入我们',
         href: 'https://t.me/hezu1',
       },
+      {
+        type: 'link',
+        label: '帮助我们美化页面',
+        href: 'https://github.com/ShadowsSide/hezu_wiki/',
+      },
+
+
+      
     
   
     ],
