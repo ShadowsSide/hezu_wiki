@@ -11,8 +11,8 @@
 
 ## TODO
 - [X] 文档搜索
-- [ ] SideBar
-- [ ] i18n
+- [X] SideBar
+- [X] i18n
 - [ ] 主题美化
 
 ## 参与贡献
