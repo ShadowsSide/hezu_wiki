@@ -26,4 +26,4 @@
 
 感谢所有为这个项目作出贡献的人!  
 
- <a href="https://github.com/facebook/docusaurus/graphs/contributors"><img src="https://opencollective.com/hezuwiki/contributors.svg?width=890&button=false" /></a>
+ <a href="https://github.com/ShadowsSide/hezu_wiki/graphs/contributors"><img src="https://opencollective.com/hezuwiki/contributors.svg?width=890&button=false" /></a>
